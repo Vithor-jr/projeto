@@ -2,14 +2,13 @@
   "expo": {
     "name": "studus",
     "slug": "studus",
+    "scheme": "studus",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#38217C"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,8 +19,9 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#38217C"
+      },
+      "package": "com.studus.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
